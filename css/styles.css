@@ -28,4 +28,37 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__btn {
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: var(--brancoTituloeDestaque);
+    background-color: var(--corBotao);
+    border: 1px solid var(--corBotao);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    margin-left: 5%;
+}
+
+.container__segundo_btn {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: var(--brancoTituloeDestaque);
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    margin: 5% 0 0 5%;
+}
+
+.principal p {
+    text-align: center;
+    margin-top: 1%;
 }
