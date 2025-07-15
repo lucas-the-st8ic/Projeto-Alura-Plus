@@ -40,9 +40,9 @@ body {
     background-color: var(--corBotao);
     border: 1px solid var(--corBotao);
     border-radius: 8px;
-    padding: 1em;
+    padding: 0.5em 1em 0.5em 1em;
     display: block;
-    margin-left: 5%;
+    margin: 5% 0 0 5%;
 }
 
 .container__segundo_btn {
@@ -53,7 +53,7 @@ body {
     color: var(--brancoTituloeDestaque);
     border: 1px solid;
     border-radius: 8px;
-    padding: 1em;
+    padding: 0.5em;
     display: block;
     margin: 5% 0 0 5%;
 }
