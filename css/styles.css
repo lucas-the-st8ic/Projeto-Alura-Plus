@@ -1,11 +1,40 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "inter_regular-18";
+    src: url(../fonts/Inter_18pt-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "inter_bold-18";
+    src: url(../fonts/Inter_18pt-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "inter_regular-24";
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "inter_bold-24";
+    src: url(../fonts/Inter_24pt-Bold.ttf);
+    font-weight: bold;
+}
+
 :root {
     --brancoTituloeDestaque: #ffffff;
     --cinzaSecundario: #C0C0C0;
     --cordeFundo: #00030C;
     --cordeFundo-2: #040814;
     --corBotao: #167BF7;
+
+    --fonte_inter-regular-18: 'inter_regular-18', Arial;
+    --fonte_inter-bold-18: 'inter_bold-18', Arial;
+    --fonte_inter-regular-24: 'inter_regular-24', Arial;
+    --fonte_inter-bold-24: 'inter_bold-24', Arial;
 }
 
 * {
@@ -16,13 +45,16 @@
 body {
     background-color: var(--cordeFundo);
     color: var(--brancoTituloeDestaque);
+    font-family: var(--fonte_inter-bold-24);
+    font-size: 16px;
 }
 
 .principal {
-    width: 1170px;
     background-image: url(../images/Background.png);
     background-size: contain;
     background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -31,34 +63,56 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.container__box {
+    margin: 0 2em;
 
+}
+
+.container__box h1 {
+    text-align: left;
+}
+
+.container__titulo {
+    font-size: 28px;
+    margin-bottom: 1em;
+}
+
+.container__image {
+    display: block;
+    margin:auto;
+    margin-bottom: 1em;
+}
 .container__btn {
     text-decoration: none;
-    font-size: 1em;
+    font-family: var(--fonte_inter-regular-18);
+    font-size: 16px;
     text-align: center;
     color: var(--brancoTituloeDestaque);
     background-color: var(--corBotao);
     border: 1px solid var(--corBotao);
     border-radius: 8px;
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 16px;
     display: block;
-    margin: 5% 0 0 5%;
+    margin-bottom: 0.5em;
 }
 
 .container__segundo_btn {
     background-color: transparent;
     text-decoration: none;
-    font-size: 1em;
+    font-family: var(--fonte_inter-regular-18);
+    font-size: 16px;
     text-align: center;
     color: var(--brancoTituloeDestaque);
     border: 1px solid;
     border-radius: 8px;
-    padding: 0.5em;
+    padding: 16px;
     display: block;
-    margin: 5% 0 0 5%;
+    margin-bottom: 1em;
 }
 
-.principal p {
+.container__aviso {
     text-align: center;
-    margin-top: 1%;
+    color: var(--cinzaSecundario);
+    margin-top: 0.5%;
+    font-size: 12px;
 }
