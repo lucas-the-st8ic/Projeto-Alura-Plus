@@ -115,3 +115,50 @@ body {
     margin-top: 0.5%;
     font-size: 12px;
 }
+
+.secundario {
+    align-items: center;
+    text-align: center;
+}
+
+.secundario__img-plataformas {
+    width: 70%;
+    margin-left: 6em;
+    
+}
+
+.container__titulo-secundario {
+    font-family: var(--fonte_inter-bold-24);
+    font-size: 40px;
+    margin-right: 4em;
+    margin-bottom: 0.1em;
+}
+
+.container__descritivo-texto {
+    font-family: var(--fonte_inter-regular-18);
+    color: var(--cinzaSecundario);
+    font-size: medium;
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-right: 1em;
+}
+
+.container__descritivo-texto--secundario {
+    font-family: var(--fonte_inter-regular-18);
+    color: var(--cinzaSecundario);
+    font-size: medium;
+    text-align: justify;
+    margin: 0 2em 0.7em 2em;
+    padding-right: 1em;
+}
+
+.segundo__btn {
+    display: inline-block;
+    margin: 0 20em 0 2em;
+}
+
+.secundario__img-telas {
+    width: 80%;
+    margin-left: 3em;
+}
