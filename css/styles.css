@@ -51,21 +51,20 @@ body {
 
 .principal {
     background-image: url(../images/Background.png);
-    background-size: contain;
+    background-size: 101vw;
     background-repeat: no-repeat;
     align-items: center;
     text-align: center;
 }
 
 .container {
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 .container__box {
-    margin: 0 2em;
-
+    margin: 0 4em;
 }
 
 .container__box h1 {
@@ -80,7 +79,7 @@ body {
 .container__image {
     display: block;
     margin:auto;
-    margin-bottom: 1em;
+    margin-bottom: 1em 0 2em 0;
 }
 .container__btn {
     text-decoration: none;
@@ -91,9 +90,9 @@ body {
     background-color: var(--corBotao);
     border: 1px solid var(--corBotao);
     border-radius: 8px;
-    padding: 16px;
+    padding: 1em;
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .container__segundo_btn {
