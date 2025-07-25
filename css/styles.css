@@ -158,3 +158,29 @@ body {
     margin: 1em 20em 0 2em;
 }
 
+.dispositivos {
+    width: 98vw;
+    height: 100vh; 
+}
+
+.dispositivos__titulo {
+    text-align: center;
+    font-size: 48px;
+    font-family: var(--fonte_inter-bold-24);
+    color: var(--brancoTituloeDestaque);
+    margin: 2.5em 0 1em 0;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos___itens-da-lista {
+    font-size: 32px;
+    text-align: center;
+    color: var(--brancoTituloeDestaque);
+    justify-content: center;
+}
