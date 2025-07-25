@@ -184,3 +184,33 @@ body {
     color: var(--brancoTituloeDestaque);
     justify-content: center;
 }
+
+.rodape {
+    text-align: center;
+    margin: 5em 4em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 0.9em;
+    font-family: var(--fonte_inter-regular-18);
+    font-size: 0.9em;
+}
+.rodape__itens-da-lista {
+    padding: 0 5px;
+}
+
+.rodape__lista a {
+    text-decoration: none;
+    color: var(--brancoTituloeDestaque);
+    font-size: 15px;
+}
+
+.rodape__texto {
+    font-family: var(--fonte_inter-regular-18);
+    color: var(--cinzaSecundario);
+    margin: 1em 5px 8px 5px;
+    font-size: 14px;
+}
