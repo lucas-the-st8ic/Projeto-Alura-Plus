@@ -35,6 +35,7 @@
     --fonte_inter-bold-18: 'inter_bold-18', Arial;
     --fonte_inter-regular-24: 'inter_regular-24', Arial;
     --fonte_inter-bold-24: 'inter_bold-24', Arial;
+    --btn-azul-efeito: #328dfd;
 }
 
 * {
@@ -95,6 +96,11 @@ body {
     margin-bottom: 1em;
 }
 
+    .container__btn:hover {
+        background-color: var(--btn-azul-efeito);
+        color: var(--cordeFundo);
+    }
+
 .container__segundo_btn {
     background-color: transparent;
     text-decoration: none;
@@ -108,6 +114,10 @@ body {
     display: block;
     margin-bottom: 1em;
 }
+    .container__segundo_btn:hover {
+        background-color: var(--btn-azul-efeito);
+        color: var(--cordeFundo);
+    }
 
 .container__aviso {
     text-align: center;
